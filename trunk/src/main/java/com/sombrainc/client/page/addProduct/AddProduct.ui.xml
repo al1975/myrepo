@@ -1,0 +1,18 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<g:VerticalPanel>
+		<g:Label ui:field="productNameLabel" text="Product name" />
+		<g:TextBox ui:field="productName" />
+		<g:Label ui:field="productDescriptionLabel" text="Description" />
+		<g:TextArea ui:field="productDescription"></g:TextArea>
+		<g:HorizontalPanel>
+			<g:Button text="Camera" ui:field="camera"></g:Button>
+			<g:Button text="Library" ui:field="library"></g:Button>
+			<g:Button text="Submit" ui:field="submit"></g:Button>
+			<g:Button text="Reset" ui:field="reset"></g:Button>
+			<g:Button text="Cancel" ui:field="cancel"></g:Button>
+		</g:HorizontalPanel>
+		<g:VerticalPanel ui:field="imagePanel"></g:VerticalPanel>
+	</g:VerticalPanel>
+</ui:UiBinder> 
